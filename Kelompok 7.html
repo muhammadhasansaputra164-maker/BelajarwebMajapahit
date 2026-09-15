@@ -1,0 +1,209 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sejarah Kerajaan Majapahit</title>
+    <style>
+        :root {
+            --majapahit-red: #8B0000;
+            --majapahit-gold: #D4AF37;
+            --bg-dark: #ffffff;
+            --bg-light: #fdfbf7;
+            --text-main: #ffffff;
+            --text-muted: #ffffff;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            line-height: 1.7;
+        }
+
+        /* Header / Banner */
+        header {
+            background: linear-gradient(rgba(255, 255, 255, 0.7019607843137254), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1596401357563-ada6c3405f6e?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            color: var(--white);
+            text-align: center;
+            padding: 120px 20px;
+            border-bottom: 5px solid var(--majapahit-gold);
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            color: var(--majapahit-gold);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.25rem;
+            max-width: 700px;
+            margin: 0 auto;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+        }
+
+        /* Container Utama */
+        .container {
+            max-width: 950px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: var(--majapahit-red);
+            border-bottom: 3px solid var(--majapahit-gold);
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.05rem;
+            color: #444;
+            text-align: justify;
+        }
+
+        /* Grid Raja-Raja / Tokoh */
+        .grid-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: var(--white);
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-top: 4px solid var(--majapahit-red);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--majapahit-red);
+            font-size: 1.3rem;
+        }
+
+        .card .period {
+            font-size: 0.85rem;
+            color: var(--majapahit-gold);
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+
+        /* Highlight Box (Sumpah Palapa / Peninggalan) */
+        .highlight-box {
+            background: linear-gradient(135deg, #fff9e6, #fff3cd);
+            border-left: 6px solid var(--majapahit-gold);
+            padding: 20px 25px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 20px;
+        }
+
+        .highlight-box h3 {
+            margin-top: 0;
+            color: var(--majapahit-red);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--bg-dark);
+            color: var(--white);
+            text-align: center;
+            padding: 25px;
+            font-size: 0.9rem;
+            border-top: 3px solid var(--majapahit-gold);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Banner -->
+    <header>
+        <h1>Kerajaan Majapahit</h1>
+        <p>Masa Kejayaan Nusantara: "Amukti Palapa" di Bawah Panji Panah Surya.</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- Sekilas Sejarah -->
+        <section>
+            <h2>Mengenal Majapahit</h2>
+            <p>Kerajaan Majapahit adalah sebuah kerajaan Hindu-Buddha yang pernah berdiri di Nusantara sekitar tahun 1293 hingga 1527 M. Kerajaan ini berpusat di Jawa Timur (sekitar Trowulan, Mojokerto sekarang) dan dianggap sebagai salah satu negara terbesar dalam sejarah Indonesia, dengan wilayah kekuasaan yang hampir mencakup seluruh Nusantara hingga sebagian Asia Tenggara.</p>
+        </section>
+
+        <!-- Raja-raja Penting -->
+        <section>
+            <h2>Penguasa Terkenal</h2>
+            <div class="grid-cards">
+                
+                <div class="card">
+                    <h3>Raden Wijaya</h3>
+                    <span class="period">1293 – 1309 M</span>
+                    <p>Pendiri sekaligus raja pertama Kerajaan Majapahit dengan gelar Kertarajasa Jayawardhana. Beliau berhasil mengalahkan pasukan Mongol (Kubilai Khan) yang dikirim ke Jawa.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Hayam Wuruk</h3>
+                    <span class="period">1350 – 1389 M</span>
+                    <p>Raja terbesar Majapahit. Di bawah kepemimpinannya didampingi Mahapatih Gajah Mada, Majapahit mencapai puncak masa keemasan, baik dari segi ekonomi, sastra, maupun luas wilayah.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Patih Gajah Mada & Sumpah Palapa -->
+        <section>
+            <h2>Mahapatih Gajah Mada & Sumpah Palapa</h2>
+            <p>Gajah Mada adalah seorang panglima perang dan tokoh yang sangat berpengaruh dalam sejarah Majapahit. Pada tahun 1336 M, saat diangkat menjadi Patih Amangkubumi, ia mengucapkan sumpah terkenal yang dikenal sebagai <strong>Sumpah Palapa</strong>.</p>
+            
+            <div class="highlight-box">
+<h3>Isi Sumpah Palapa (Kitab Pararaton)</h3>
+<p><em>"Sira Gajah Mada Patih Amangkubumi tan ayun amukita palapa, sira Gajah Mada: Lamun huwus kalah nusantara isun amukti palapa, lamun kalah huwus ring Gurun, Seram, Tanjungpura, Haru, Pahang, Dompo, Bali, Sunda, Palembang, Tumasik, samana isun amukti palapa."</em></p>
+<p style="margin-top: 10px; font-style: italic; color: #555;">(Terjemahan bebas: Gajah Mada tidak akan menikmati buah palapa sebelum menyatukan Nusantara: Gurun, Seram, Tanjungpura, Haru, Pahang, Dompo, Bali, Sunda, Palembang, Tumasik. Jika telah mengalahkan semuanya, barulah ia akan menikmati buah palapa).</p>
+            </div>
+        </section>
+
+        <!-- Peninggalan Sejarah -->
+        <section>
+            <h2>Peninggalan Bersejarah</h2>
+            <p>Kerajaan Majapahit meninggalkan banyak warisan budaya yang luar biasa, baik berupa prasasti, candi, maupun karya sastra agung:</p>
+            <ul style="color: #656565; font-size: 1.05rem; line-height: 1.8;">
+                <li><strong>Candi:</strong> Candi Penataran, Candi Tikus, Candi Bajang Ratu, Candi Brahu, dan Candi Pari.</li>
+                <li><strong>Kitab Sastra:</strong> Kitab <em>Nagarakretagama</em> (karya Mpu Prapanca) dan Kitab <em>Sutasoma</em> (karya Mpu Tantular, yang memuat semboyan <strong>Bhinneka Tunggal Ika</strong>).</li>
+                <li><strong>Kawasan Situs:</strong> Situs Trowulan di Mojokerto yang menyimpan sisa-sisa kota kuno, saluran air, dan artefak kerajaan.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Ensiklopedia Sejarah Nusantara. Mengenal Jejak Kejayaan Majapahit.</p>
+    </footer>
+
+</body>
+</html>
